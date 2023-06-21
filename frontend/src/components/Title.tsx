@@ -24,7 +24,7 @@ const Title = ({ setMessages }: Props) => {
   };
   return (
     <div className="flex justify-between items-center w-full p4 bg-gray-900 text-white">
-      <div className="italic">Rachel</div>
+      <div className="italic">Naomi</div>
       <button onClick={resetConversation} className={"transition-all duration-300 text-blue-300 hover:text-pink-500 " + ( isResetting && "animate-pulse" )}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
